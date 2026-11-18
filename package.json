@@ -1,0 +1,16 @@
+{
+  "name": "bonus-rules-configurator",
+  "version": "1.3.0",
+  "description": "Config-driven bonus rules: evaluate deposits, validate configs and release changes from staging to production.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Roman Hirkovyi",
+  "license": "MIT"
+}

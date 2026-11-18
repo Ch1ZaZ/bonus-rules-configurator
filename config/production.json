@@ -1,0 +1,82 @@
+{
+  "environment": "production",
+  "version": "1.2.0",
+  "updatedAt": "2026-11-02",
+  "rules": [
+    {
+      "id": "HIGHROLLER_EU",
+      "name": "High roller 25% bonus",
+      "active": true,
+      "priority": 1,
+      "countries": ["PL", "DE", "LT", "LV", "EE", "CZ"],
+      "currencies": ["EUR"],
+      "minDeposit": 500,
+      "maxBonus": 1000,
+      "percent": 25,
+      "wagering": 20,
+      "firstDepositOnly": false,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31"
+    },
+    {
+      "id": "WELCOME_UA",
+      "name": "Welcome bonus 100% (Ukraine)",
+      "active": true,
+      "priority": 2,
+      "countries": ["UA"],
+      "currencies": ["UAH"],
+      "minDeposit": 200,
+      "maxBonus": 5000,
+      "percent": 100,
+      "wagering": 35,
+      "firstDepositOnly": true,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31"
+    },
+    {
+      "id": "WELCOME_EU",
+      "name": "Welcome bonus 100% (EU)",
+      "active": true,
+      "priority": 3,
+      "countries": ["PL", "DE", "LT", "LV", "EE", "CZ"],
+      "currencies": ["EUR"],
+      "minDeposit": 20,
+      "maxBonus": 200,
+      "percent": 100,
+      "wagering": 30,
+      "firstDepositOnly": true,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31"
+    },
+    {
+      "id": "BLACK_FRIDAY_2025",
+      "name": "Black Friday 150% bonus",
+      "active": false,
+      "priority": 4,
+      "countries": ["UA", "PL"],
+      "currencies": ["UAH", "EUR"],
+      "minDeposit": 100,
+      "maxBonus": 300,
+      "percent": 150,
+      "wagering": 40,
+      "firstDepositOnly": false,
+      "validFrom": "2025-11-28",
+      "validTo": "2025-11-30"
+    },
+    {
+      "id": "RELOAD_EU",
+      "name": "Reload bonus 50% (EU)",
+      "active": true,
+      "priority": 5,
+      "countries": ["PL", "DE", "LT", "LV", "EE", "CZ"],
+      "currencies": ["EUR"],
+      "minDeposit": 30,
+      "maxBonus": 100,
+      "percent": 50,
+      "wagering": 25,
+      "firstDepositOnly": false,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31"
+    }
+  ]
+}
