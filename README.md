@@ -75,6 +75,8 @@ npm test     # run unit tests
 npm start    # open http://localhost:8080
 ```
 
+Requires Node.js 22 or newer.
+
 > Configs are loaded with `fetch`, so open the app through `npm start` (or GitHub Pages),
 > not by double-clicking `index.html`.
 
